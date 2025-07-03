@@ -42,5 +42,3 @@ This project highlights the integration of modern sequencing technologies with d
 
 
 
-Let me know if you'd like this adapted for Jupyter notebooks, or want setup instructions or code structure added.
-
