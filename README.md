@@ -2,7 +2,7 @@
 Predicting hypoxia with gene expression cells.
 Based on your AI Lab project PDF, here is a **well-structured and detailed GitHub README** written in paragraph form, including clear descriptions of the background, EDA, unsupervised, and supervised learning components:
 
----
+
 
 <b>Predicting Hypoxia from Gene Expression using Single-Cell RNA-seq Data</b>
 
@@ -10,7 +10,7 @@ This project explores the predictive analysis of hypoxia in breast cancer cells 
 
 To conduct this analysis, we employed a comprehensive machine learning pipeline that included **exploratory data analysis (EDA)**, **unsupervised learning** for clustering, and **supervised learning** for predictive modeling.
 
----
+
 
 **Exploratory Data Analysis (EDA)**
 
@@ -18,7 +18,7 @@ The EDA phase was critical in understanding the structure and quality of the gen
 
 Distributional characteristics were analyzed using **boxplots**, **violin plots**, and **kernel density estimations**. Skewness and kurtosis measures were calculated to assess asymmetry and tailedness of the distributions. A **log2 transformation** was applied to stabilize variance and reduce the impact of outliers, improving normality across features. Correlation analysis (both histograms and pairplots) revealed moderate but informative inter-cell variability, confirming that the dataset retained useful heterogeneity for downstream modeling.
 
----
+
 
 **Unsupervised Learning**
 
@@ -26,7 +26,7 @@ For clustering, we implemented a standard preprocessing pipeline including **log
 
 To determine optimal cluster counts, we used **inertia scores** (from K-Means) and **silhouette scores** to evaluate cohesion and separation. Clustering was performed using both **K-Means** and **Gaussian Mixture Models (GMM)**. The results were visualized in 2D PCA plots, making it possible to interpret the separation of gene expression profiles under different conditions and across cell lines.
 
----
+
 
 **Supervised Learning**
 
@@ -34,13 +34,13 @@ The final section involved training models to predict **hypoxia status** in the 
 
 We also investigated **gene importance** to identify which genes most strongly contributed to predicting hypoxic states—an essential step for potential biomarker discovery. Among the models, Random Forest consistently performed best, providing both high accuracy and interpretable feature importance metrics.
 
----
+
 
 **Summary**
 
 This project highlights the integration of modern sequencing technologies with data-driven analysis to address a key biomedical question. Through methodical EDA, unsupervised clustering, and robust supervised modeling, we demonstrated how gene expression patterns can be leveraged to predict cellular hypoxia and uncover biological insights in breast cancer research.
 
----
+
 
 Let me know if you'd like this adapted for Jupyter notebooks, or want setup instructions or code structure added.
 
