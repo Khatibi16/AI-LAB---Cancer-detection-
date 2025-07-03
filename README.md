@@ -1,12 +1,13 @@
 # AI-LAB-Cancer-detection
 Predicting hypoxia with gene expression cells.
-Based on your AI Lab project PDF, here is a **well-structured and detailed GitHub README** written in paragraph form, including clear descriptions of the background, EDA, unsupervised, and supervised learning components:
 
 
 
 <b>Predicting Hypoxia from Gene Expression using Single-Cell RNA-seq Data</b>
 
 This project explores the predictive analysis of hypoxia in breast cancer cells using single-cell transcriptomic data obtained via two cutting-edge sequencing technologies: **Drop-seq** and **SMART-seq**. The biological motivation is rooted in understanding the molecular heterogeneity of breast cancer—specifically between the luminal MCF7 and the triple-negative HCC1806 cell lines. These datasets allow us to evaluate differences in gene expression patterns under normoxic and hypoxic conditions at single-cell resolution.
+
+The whole project was completed by my group at Bocconi University.
 
 To conduct this analysis, we employed a comprehensive machine learning pipeline that included **exploratory data analysis (EDA)**, **unsupervised learning** for clustering, and **supervised learning** for predictive modeling.
 
