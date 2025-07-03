@@ -36,7 +36,6 @@ The final section involved training models to predict **hypoxia status** in the 
 We also investigated **gene importance** to identify which genes most strongly contributed to predicting hypoxic states—an essential step for potential biomarker discovery. Among the models, Random Forest consistently performed best, providing both high accuracy and interpretable feature importance metrics.
 
 
-
 **Summary**
 
 This project highlights the integration of modern sequencing technologies with data-driven analysis to address a key biomedical question. Through methodical EDA, unsupervised clustering, and robust supervised modeling, we demonstrated how gene expression patterns can be leveraged to predict cellular hypoxia and uncover biological insights in breast cancer research.
